@@ -1,0 +1,12 @@
+{
+    "display_name": "OpenVault Branch",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "OpenVault",
+    "version": "1.32",
+    "homePage": "https://github.com/vadash/openvault",
+    "auto_update": false
+}

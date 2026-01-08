@@ -1,0 +1,19 @@
+{
+  "name": "openvault-branch",
+  "version": "1.32",
+  "type": "module",
+  "description": "SillyTavern memory extension with branch-aware memory pruning",
+  "scripts": {
+    "clear": "node -e \"process.stdout.write('\\u001B[2J\\u001B[0;0f')\"",
+    "lint": "eslint .",
+    "test": "node scripts/test.js",
+    "sync-version": "node scripts/sync-version.js",
+    "build:css": "node scripts/build-css.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "jsdom": "^27.4.0",
+    "vitest": "^4.0.16"
+  }
+}
